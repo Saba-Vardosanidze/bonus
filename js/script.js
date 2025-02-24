@@ -86,7 +86,9 @@ function fetchData() {
               </div>
               <div class="addressInfo">
                 <img src="assets/img/svg/link.svg" alt="url" />
-                <p>${data.url}</p>
+                <p>
+                  <a href="">${data.url}</a>
+                </p>
               </div>
             </div>
             <div class="addressInfoContainer">
