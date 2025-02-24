@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="logoDarkLightContainer">
+        <a href="index.html"
+          ><img src="assets/img/svg/logo.svg" alt="Logo"
+        /></a>
+        <div>
+          <button id="darkLight">
+            DARK <img src="assets/img/svg/moon.svg" alt="DarkLight" />
+          </button>
+        </div>
+      </div>
+      <div class="searchContainer">
+        <form id="filterForm">
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search GitHub username…"
+          />
+          <button type="submit" class="searchButton">Search</button>
+        </form>
+        <img
+          class="searchIcon"
+          src="assets/img/svg/searchIcon.svg"
+          alt="search"
+        />
+        <button class="xIconButton" id="xButton">
+          <img src="assets/img/svg/x-icon.png" alt="" />
+        </button>
+      </div>
+      <main id="resultCotanier"></main>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
