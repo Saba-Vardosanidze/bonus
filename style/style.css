@@ -240,6 +240,9 @@ input:not(:placeholder-shown) {
     width: 573px;
   }
 }
+.logoSvg path {
+  fill: var(--numberColor);
+}
 @media (max-width: 768px) {
   .mainContainer .searchContainer {
     width: 573px;
