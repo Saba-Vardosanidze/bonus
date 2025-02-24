@@ -278,7 +278,8 @@ input:not(:placeholder-shown) {
 }
 @media (max-width: 768px) {
   #bio {
-    margin-top: 50px;
+    margin-top: 2px;
+    margin-bottom: 25px;
   }
 }
 /* phone */
