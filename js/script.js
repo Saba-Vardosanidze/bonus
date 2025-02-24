@@ -87,7 +87,7 @@ function fetchData() {
               <div class="addressInfo">
                 <img src="assets/img/svg/link.svg" alt="url" />
                 <p>
-                  <a href="">${data.url}</a>
+                  <a class= "link" href="#" >${data.url}</a>
                 </p>
               </div>
             </div>
@@ -99,7 +99,7 @@ function fetchData() {
               <div class="addressInfo">
                 <img src="assets/img/svg/github.svg" alt="github" />
                 <p>
-                  <a href="#">${data.html_url}</a>
+                  <a class= "link" href="#">${data.html_url}</a>
                 </p>
               </div>
             </div>

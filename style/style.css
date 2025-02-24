@@ -234,6 +234,9 @@ input:not(:placeholder-shown) {
   width: 166px;
   font-size: 10px;
 }
+.link {
+  color: var(--textColor);
+}
 /* tablet */
 @media (max-width: 768px) {
   .mainContainer .logoDarkLightContainer {
