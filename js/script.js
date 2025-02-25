@@ -45,6 +45,7 @@ function fetchData() {
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("resultCotanier");
+      container.innerHTML = "";
 
       const card = document.createElement("div");
       card.innerHTML = `
